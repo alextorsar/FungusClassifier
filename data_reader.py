@@ -207,6 +207,7 @@ class MaldiDataset:
         self.data = []
 
     def parse_dataset(self):
+        i = 0
         for folder in os.listdir(self.root_dir):
             i += 1
             folder_path = os.path.join(self.root_dir, folder)
