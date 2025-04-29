@@ -1,3 +1,5 @@
 data/fungus_db/*
+bin_3_models_pipelines/*
+bin_6_models_pipelines/*
 *.zip
 *.pkl
